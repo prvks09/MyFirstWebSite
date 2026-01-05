@@ -63,6 +63,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
+  /* background-color: grey; */
 }
 
 h1,
@@ -187,8 +188,22 @@ ul {
   text-align: center;
 }
 
+.cta-card {
+  background-color: #339af0;
+}
+
 /* ----------------------- FOOTER ----------------------- */
 
 .footer {
   text-align: center;
+}
+
+/* ----------------------- TEST ----------------------- */
+#test::after {
+  content: "*Beta";
+  vertical-align: super;
+  color: purple;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 8px;
 }
