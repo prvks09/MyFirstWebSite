@@ -171,6 +171,14 @@ ul {
   background-color: #ff922b;
 }
 
+.logo-md {
+  width: 100px;
+}
+
+.logo-sm {
+  width: 80px;
+}
+
 /* ----------------------- SECTIONS ----------------------- */
 /* ----------------------- HERO SECTIONS ----------------------- */
 .hero-section {
@@ -182,6 +190,9 @@ ul {
   text-align: center;
 }
 
+.feature-img {
+  width: 400px;
+}
 /* ----------------------- CTA SECTIONS ----------------------- */
 
 .cta-section {
@@ -190,12 +201,17 @@ ul {
 
 .cta-card {
   background-color: #339af0;
+  width: 1000px;
 }
 
 /* ----------------------- FOOTER ----------------------- */
 
 .footer {
   text-align: center;
+}
+
+.social-icon {
+  width: 20px;
 }
 
 /* ----------------------- TEST ----------------------- */
