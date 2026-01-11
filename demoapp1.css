@@ -1,9 +1,35 @@
-.inline-element {
+.container {
   /* background-color: purple; */
-  width: 50px;
+  max-width: 80vw;
+  max-height: 80vh;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  min-width: 30vw;
+  min-height: 30vw;
+}
+
+.box-1 {
+  width: 200px;
   height: 200px;
-  border: 10px solid black;
-  display: inline;
-  padding: 30px;
-  margin: 220px;
+  background-color: orange;
+}
+
+.box-2 {
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+}
+
+.box-3 {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}
+
+.box-4 {
+  width: 200px;
+  height: 200px;
+  background-color: purple;
 }
