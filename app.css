@@ -165,7 +165,8 @@ a {
 
 ul {
   list-style: none;
-  /* display: flex; */
+  /* display: flex;
+  gap: 20px; */
 }
 
 span {
@@ -266,7 +267,9 @@ span {
 
 .navbar {
   height: var(--nav-height);
-  /* display: flex; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* ----------------------- HERO SECTIONS ----------------------- */
@@ -324,19 +327,20 @@ span {
 /* ----------------------- FOOTER ----------------------- */
 
 .footer {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
+
+/* .allsocialicon {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+} */
 
 .social-icon {
   width: 20px;
 }
 
 /* ----------------------- TEST ----------------------- */
-#test::after {
-  content: "*Beta";
-  vertical-align: super;
-  color: purple;
-  font-weight: 700;
-  font-style: italic;
-  font-size: 8px;
-}

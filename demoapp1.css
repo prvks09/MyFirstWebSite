@@ -1,35 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   /* background-color: purple; */
-  max-width: 80vw;
-  max-height: 80vh;
-  background-color: grey;
+  max-width: 1000px;
+  max-height: 1000px;
+  background-color: lightblue;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 0 auto;
   min-width: 30vw;
   min-height: 30vw;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.box-1 {
+.card {
   width: 200px;
   height: 200px;
-  background-color: orange;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  gap: 2px;
 }
 
-.box-2 {
-  width: 200px;
-  height: 200px;
-  background-color: purple;
+img {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  border-radius: 75px;
 }
 
-.box-3 {
-  width: 200px;
-  height: 200px;
-  background-color: orange;
+a > img {
+  height: 15px;
+  width: 15px;
 }
 
-.box-4 {
-  width: 200px;
-  height: 200px;
-  background-color: purple;
+.logo {
+  display: flex;
+  gap: 1px;
 }
