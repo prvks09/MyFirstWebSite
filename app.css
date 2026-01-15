@@ -313,8 +313,19 @@ span {
   text-align: center;
   margin-bottom: 8rem;
 }
+
+.features-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 15rem;
+  column-gap: 5rem;
+  border: 2px solid black;
+  justify-items: center;
+  align-items: center;
+}
+
 .feature-headings {
-  margin-bottom: 20rem;
+  margin-bottom: 2rem;
 }
 
 .feature-img {
