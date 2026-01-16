@@ -163,6 +163,13 @@ a {
   display: inline-block;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--grey-base);
+}
+
 ul {
   list-style: none;
   /* display: flex;
@@ -319,9 +326,18 @@ span {
   grid-template-columns: repeat(2, 1fr);
   row-gap: 15rem;
   column-gap: 5rem;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   justify-items: center;
   align-items: center;
+
+  /* TO BE REMOVED BELOW */
+  height: 300px;
+  overflow: scroll;
+}
+
+.feature-img-swap-order {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
 }
 
 .feature-headings {
@@ -351,6 +367,7 @@ span {
 
 .cta-heading {
   margin-bottom: 30px;
+  color: var(--white);
 }
 
 /* ----------------------- FOOTER ----------------------- */
