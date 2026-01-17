@@ -172,8 +172,6 @@ a:active {
 
 ul {
   list-style: none;
-  /* display: flex;
-  gap: 20px; */
 }
 
 span {
@@ -290,7 +288,7 @@ span {
   height: calc(100vh - var(--nav-height));
   min-height: 400px;
   margin-bottom: 10rem;
-  display: flex; /*Need to check if it is correct and then remove this comment */
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -329,10 +327,6 @@ span {
   /* border: 2px solid black; */
   justify-items: center;
   align-items: center;
-
-  /* TO BE REMOVED BELOW */
-  height: 300px;
-  overflow: scroll;
 }
 
 .feature-img-swap-order {
