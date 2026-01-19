@@ -37,17 +37,19 @@ body {
   border: 2px solid black;
   height: 200px;
   width: 200px;
-  position: absolute;
+  position: relative;
+  /* z-index: 2; */
   /* bottom: 0px;
   right: 0px; */
-  /* left: 0px;
-  top: 0px; */
+  left: 30px;
+  top: 40px;
 }
 .box-3 {
   background-color: lightpink;
   border: 2px solid black;
   height: 250px;
   width: 250px;
+  position: relative;
 }
 .box-4 {
   background-color: lightslategray;
