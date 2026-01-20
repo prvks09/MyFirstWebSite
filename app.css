@@ -196,6 +196,7 @@ span {
   color: var(--white);
   background-color: var(--primary-base);
   border: 2px solid var(--primary-base);
+  transition: 1s;
 }
 
 .btn-primary:hover,
@@ -212,6 +213,7 @@ span {
   color: var(--primary-base);
   background-color: var(--white);
   border: 2px solid var(--primary-base);
+  transition: 1s;
 }
 
 .btn-primary-outline:hover,
@@ -228,6 +230,7 @@ span {
   color: #ffffff;
   background-color: var(--secondary-base);
   border: 2px solid var(--secondary-base);
+  transition: 1s;
 }
 
 .btn-secondary:hover,
@@ -322,6 +325,15 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* can be removed later */
+  /* position: fixed;
+  top: 0;
+  left: 80px;
+  width: 90%;
+  max-width: 1200px;
+  background: #fff;
+  z-index: 1000;
+  margin: 0 auto; */
 }
 
 .nav-btn-container {
